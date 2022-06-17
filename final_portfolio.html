@@ -1,0 +1,153 @@
+<!DOCTYPE html>  <!-- HTML5 문서임을 알려줌 -->
+<html>
+<head>
+    <meta charset="utf-8">  <!-- 한글이 정상적으로 보이도록 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 모바일에서 콘텐츠 크기 최적화 -->
+    <link rel="stylesheet" type="text/css" href="style_portfolio.css"> <!-- CSS 파일 불러오기 -->
+    <title>JoHyunJin_portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<body>
+    <div class="all">
+        <div id="head">
+            <div id="logo">
+                <a href="final_main.html"><img src="image/logo.png"></a>
+            </div>
+            <div class="menu">
+                <div id="about">
+                    <a href="final_about.html">
+                        About
+                    </a>
+                 </div>
+                <div id="portfolio">
+                    <a href="final_portfolio.html">
+                        Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="image">
+                <div class="index">
+                    <img id="index_1" src="image/index1.jpg">
+                    <img id="index_2" src="image/index2.jpg">
+                </div>
+
+                <div class="web">
+                    <div class="slider">
+                        <img id="web_1" src="image/web1.png">
+                        <img id="web_2" src="image/web2.png">
+                        <img id="web_3" src="image/web3.png">
+                    </div>
+                </div>
+
+                <div class="netflix">
+                    <div class="slider">
+                        <div id="netflix_1"><img src="image/Netflix1.jpg"></div>
+                        <div id="netflix_2"><img src="image/Netflix2.jpg"></div>
+                        <div id="netflix_3"><img src="image/Netflix3.jpg"></div>
+                    </div>
+                </div>
+
+                <div class="dunkin">
+                    <img id="dunkin" src="image/dunkin_ani.gif">
+                </div>
+
+                <div class="bird">
+                    <img id="bird" src="image/bird.jpg">
+                </div>
+
+                <div class="toktok">
+                    <img id="toktok" src="image/toktok.jpg">
+                </div>
+
+                <div class="playlist">
+                    <div class="slider">
+                        <div id="playlist_1"><img src="image/play1.png"></div>
+                        <div id="playlist_2"><img src="image/play2.png"></div>
+                        <div id="playlist_3"><img src="image/play3.png"></div>
+                    </div>
+                </div>
+
+                <div class="melon">
+                    <img id="melon" src="image/app_info.png">
+                </div>
+
+                <div class="rabbitandturtle">
+                    <video id="rabbitandturtle" controls>
+                        <source src="image/rabbitandturtle.mp4" tyle="video/mp4">
+                    </video> 
+                </div>
+            </div>
+
+            <div class="info">
+
+                <div id="text">
+                    <p>Index Design</p>
+                    <hr/>
+                    <span>타입페이스와 뉴미디어</span>
+                </div>
+
+                <div id="text">
+                    <p>Shopping mall Webpage Design</p>
+                    <hr/>
+                    <span>컴퓨터그래픽스2</span>
+                </div>
+
+                <div id="text">
+                    <p>Queen's Gambit Webpage Design</p>
+                    <hr/>
+                    <span>컴퓨터그래픽스2</span>
+                </div>
+
+                <div id="text">
+                    <p>DunkinDonuts Animation</p>
+                    <hr/>
+                    <span>디지털조형</span>
+                </div>
+
+                <div id="text">
+                    <p>Bird Simpliacation</p>
+                    <hr/>
+                    <span>기초디지털표현</span>
+                </div>
+
+                <div id="text">
+                    <p>Drink Advertisement</p>
+                    <hr/>
+                    <span>컴퓨터그래픽스1</span>
+                </div>
+
+                <div id="text">
+                    <p>Playlist Design</p>
+                    <hr/>
+                    <span>컴퓨터그래픽스2</span>
+                </div>
+
+                <div id="text">
+                    <p>Application Redesign</p>
+                    <hr/>
+                    <span>디자인발상과리서치</span>
+                </div>
+
+                <div id="text">
+                    <p>Rabbit and Turtle Animation</p>
+                    <hr/>
+                    <span>스토리텔링과 디자인</span>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $('.slider').bxSlider();
+    });
+</script>
