@@ -45,28 +45,22 @@ html {
     height: 72vh;
     width: 90%;
     overflow-y: auto;
-   
-    box-sizing: border-box;
 }
 .info {
     position: relative;
     left: 3%;
     width: 25%;
-    height: 100%;
     text-align: center;
-    
-    box-sizing: border-box;
 }
 
 .image {
     width: 72%;
-    
-    box-sizing: border-box;
 }
 .index {
     width: 100%;
     height: 72vh;
     margin-bottom: 10.4%;
+    overflow: hidden;
 }
 .index img {
     position: relative;
@@ -74,6 +68,7 @@ html {
     height: 100%;
     border: 1px solid rgb(206, 206, 206);
     box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
 .web {
@@ -81,6 +76,7 @@ html {
     height: 72vh;
     margin-bottom: 10.4%;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 .web img {
     width: 100%;
@@ -93,6 +89,7 @@ html {
     height: 72vh;
     margin-bottom: 10.4%;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 .netflix img {
     width: 100%;
@@ -103,6 +100,7 @@ html {
     height: 72vh;
     margin-bottom: 10.4%;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 .dunkin img {
     width: 100%;
@@ -117,6 +115,7 @@ html {
 }
 .bird img {
     height: 100%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
 .toktok {
@@ -124,6 +123,7 @@ html {
     height: 72vh;
     margin-bottom: 10.4%;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 .toktok img {
     width: 100%;
@@ -150,12 +150,14 @@ html {
 }
 .melon img {
     height: 100%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
 .rabbitandturtle {
     width: 100%;
     height: 72vh;
     overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 #rabbitandturtle {
     width: 100%;
@@ -172,8 +174,8 @@ hr {
 #text {
     width: 100%;
     height: 72vh;
-    margin-bottom: 30%;
-    border:solid 2px rgba(0, 0, 0, 0);
+    margin-bottom: 30.3%;
+    border: 2px solid rgb(255, 255, 255);
     box-sizing: border-box;
 }
 #text p{
@@ -228,12 +230,210 @@ hr {
     text-decoration: none;   
     color: rgb(80, 80, 80);
 }
-
+#portfolio a{
+    text-decoration: line-through;
+}
 @keyframes fadein {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
+    }
+}
+
+@media (max-width: 840px) {
+    .content {
+        overflow-x: hidden;
+        height: 72vh;
+    }
+    .info {
+        position: relative;
+        left: 5%;
+        width: 28%;
+        text-align: center;
+    }
+    .image {
+        width: 67%;
+    }
+    .index {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+    }
+    .index img {
+        left: 9%;
+    }
+    .web {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .netflix {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .dunkin {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .bird {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .toktok {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .playlist {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .melon {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .rabbitandturtle {
+        width: 100%;
+        height: 37vh;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    #text {
+        width: 100%;
+        height: 37vh;
+        margin-bottom: 25.2%;
+        border: 2px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+    #text p {
+        margin-top: 40%;
+        font-size: 1rem;
+    }
+    #text span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #logo img {
+        position: relative;
+        float: left;
+        left: 43%;
+        width: 14%;
+    }
+    .menu {
+        top: 0vh;
+        font-size: 1rem;
+    }
+    .content {
+        overflow-x: hidden;
+        height: 72vh;
+    }
+    .info {
+        position: relative;
+        left: 5%;
+        width: 28%;
+        text-align: center;
+    }
+    .image {
+        width: 67%;
+    }
+    .index {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+    }
+    .index img {
+        left: 8%;
+    }
+    .web {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .netflix {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .dunkin {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .bird {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .toktok {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .playlist {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .melon {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 10.4%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .rabbitandturtle {
+        width: 100%;
+        height: 22vh;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    }
+    #text {
+        width: 100%;
+        height: 22vh;
+        margin-bottom: 25.2%;
+        border: 2px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+    #text p {
+        margin-top: 40%;
+        font-size: .6rem;
+    }
+    #text span {
+        font-size: .2rem;
     }
 }

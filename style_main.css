@@ -1,16 +1,4 @@
 @font-face {
-    font-family: 'IM_Hyemin-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'IM_Hyemin-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'GmarketSansBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
     font-weight: normal;
@@ -110,8 +98,8 @@ html {
 }
 #image_5 img {
     position: relative;
-    width: 100%;
-    bottom: 18%;
+    height: 135%;
+    bottom: 20%;
 }
 #image_6 {
     position: relative;
@@ -209,5 +197,242 @@ html {
     to {
         transform: scale(1.05);
         -webkit-filter: grayscale(0%);
+    }
+}
+
+@media (max-width: 840px) {
+    .content {
+        display: flex;
+        position: relative;
+        top: 28vh;
+        left: 1%;
+        width: 98%;
+        height: 55vh;
+        overflow-y: scroll;
+        flex-wrap: wrap;
+    }
+    .content div {
+        width: 49%;
+        height: 50vh;
+        -webkit-filter: grayscale(100%);
+        filter: gray;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+        overflow: hidden;
+    }
+    #image_1 img {
+        position: relative;
+        width: 100%;
+        bottom: 3%;
+    }
+    #image_2 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_2 img {
+        position: relative;
+        height: 100%;
+        right: 30%;
+    }
+    #image_3 {
+        position: relative;
+        left: 0%;
+        margin-bottom: 8%;
+    }
+    #image_3 img {
+        position: relative;
+        height: 100%;
+        right: 5%;
+    }
+    #image_4 {
+        position: relative;
+        left: 2%;
+    }
+    #image_4 img {
+        position: relative;
+        right: 35%;
+        height: 100%;
+    }
+    #image_5 {
+        position: relative;
+        left: 0%;
+        margin-bottom: 8%;
+    }
+    #image_5 img {
+        position: relative;
+        height: 100%;
+        bottom: 0%;
+    }
+    #image_6 {
+        position: relative;
+        left: 2%;
+    }
+    #image_6 img {
+        position: relative;
+        height: 150%;
+        bottom: 37%;
+        right: 27%;
+    }
+    #image_7 {
+        position: relative;
+        left: 0%;
+        margin-bottom: 8%;
+    }
+    #image_7 img {
+        position: relative;
+        height: 100%;
+        left: 5%;
+    }
+    #image_8 {
+        position: relative;
+        left: 2%;
+    }
+    #image_8 img {
+        position: relative;
+        right: 7%;
+        width: 115%;
+    }
+    #image_9 {
+        position: relative;
+        left: 0%;
+    }
+    #image_9 img {
+        position: relative;
+        height: 100%;
+        right: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    #head {
+        position: fixed;
+        top: 4vh;
+        width:100%;
+        height: 18vh;
+    }
+    #logo img {
+        position: relative;
+        float: left;
+        left: 43%;
+        width: 14%;
+    }
+    .content {
+        display: flex;
+        position: relative;
+        top: 16vh;
+        left: 1%;
+        width: 98%;
+        height: 79vh;
+        overflow-y: scroll;
+        flex-wrap: wrap;
+    }
+    .content div {
+        width: 96%;
+        height: 50vh;
+        -webkit-filter: grayscale(100%);
+        filter: gray;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+        overflow: hidden;
+    }
+    #image_1 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_1 img {
+        position: relative;
+        width: 100%;
+        bottom: 3%;
+    }
+    #image_2 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_2 img {
+        position: relative;
+        height: 100%;
+        right: 20%;
+    }
+    #image_3 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_3 img {
+        position: relative;
+        height: 100%;
+        right: 5%;
+    }
+    #image_4 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_4 img {
+        position: relative;
+        right: 24%;
+        height: 100%;
+    }
+    #image_5 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_5 img {
+        position: relative;
+        height: 127%;
+        bottom: 8%;
+    }
+    #image_6 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_6 img {
+        position: relative;
+        height: 150%;
+        bottom: 37%;
+        right: 22%;
+    }
+    #image_7 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_7 img {
+        position: relative;
+        height: 100%;
+        left: 9%;
+    }
+    #image_8 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_8 img {
+        position: relative;
+        right: 7%;
+        width: 115%;
+    }
+    #image_9 {
+        position: relative;
+        left: 2%;
+        margin-bottom: 8%;
+    }
+    #image_9 img {
+        position: relative;
+        height: 100%;
+        right: 30%;
+    }
+    .menu {
+        position: absolute;
+        display: flex;
+        top: 4vh;
+        left: 1%;
+        width: 98%;
+        height: 7vh;
+        font-size: 1rem;
+        font-family: 'GmarketSansMedium';
     }
 }
